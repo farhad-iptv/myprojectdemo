@@ -1146,6 +1146,16 @@ body {
   .project-name {
     font-size: 1.2rem;
   }
+
+  .project-actions {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .project-link {
+    font-size: 0.8rem;
+    padding: 0.4rem 0.8rem;
+  }
 }
 
 /* ===== WORK SECTION ===== */
@@ -1350,9 +1360,15 @@ body {
   justify-content: center;
   opacity: 0;
   transition: var(--transition-normal);
+  z-index: 10;
+  cursor: pointer;
 }
 
 .project-card:hover .project-overlay {
+  opacity: 1;
+}
+
+.project-image:hover .project-overlay {
   opacity: 1;
 }
 
@@ -1392,11 +1408,19 @@ body {
   text-decoration: none;
   transition: var(--transition-fast);
   backdrop-filter: blur(10px);
+  z-index: 20;
+  position: relative;
+  cursor: pointer;
 }
 
 .link-btn:hover {
   background: rgba(255, 255, 255, 0.3);
   transform: scale(1.1);
+  color: white;
+}
+
+.link-btn:visited {
+  color: white;
 }
 
 .image-placeholder {
@@ -1481,6 +1505,45 @@ body {
 .project-tech span:hover {
   border-color: var(--accent-primary);
   color: var(--accent-primary);
+}
+
+/* Project Actions */
+.project-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border-primary);
+}
+
+.project-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  background: var(--bg-glass);
+  border: 1px solid var(--border-primary);
+  border-radius: var(--radius-sm);
+  color: var(--text-secondary);
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 500;
+  transition: var(--transition-normal);
+  backdrop-filter: blur(10px);
+  flex: 1;
+  justify-content: center;
+}
+
+.project-link:hover {
+  border-color: var(--accent-primary);
+  color: var(--accent-primary);
+  background: rgba(0, 255, 136, 0.1);
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 255, 136, 0.2);
+}
+
+.project-link i {
+  font-size: 0.9rem;
 }
 
 /* Work CTA */
