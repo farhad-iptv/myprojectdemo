@@ -33,11 +33,17 @@
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500;600&display=swap" rel="stylesheet">
 
+    <!-- Custom Font - Whispering Signature -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
     <!-- AOS Animation Library -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" href="fonts/fonts.css">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css">
@@ -58,6 +64,7 @@
             </div>
         </div>
     </div>
+
     <!-- Profile Circle -->
     <div class="profile-circle">
         <div class="profile-image">
@@ -125,6 +132,10 @@
                         <span class="stat-number">100%</span>
                         <span class="stat-label">Client Satisfaction</span>
                     </div>
+                    <div class="stat-item">
+                        <span class="stat-number">24/7</span>
+                        <span class="stat-label">Available</span>
+                    </div>
                 </div>
 
                 <div class="hero-actions" data-aos="fade-up" data-aos-delay="800">
@@ -146,66 +157,69 @@
                         <a href="#" class="social-link" title="Twitter">
                             <i class="fab fa-twitter"></i>
                         </a>
-                    </div>
-                </div>
-
-                <div class="hero-visual" data-aos="fade-up" data-aos-delay="1000">
-                    <div class="visual-container">
-                        <div class="code-window">
-                            <div class="window-header">
-                                <div class="window-controls">
-                                    <span class="control red"></span>
-                                    <span class="control yellow"></span>
-                                    <span class="control green"></span>
-                                </div>
-                                <span class="window-title">portfolio.js</span>
-                            </div>
-                            <div class="window-content">
-                                <div class="code-line">
-                                    <span class="line-number">1</span>
-                                    <span class="code-text">
-                                        <span class="keyword">const</span>
-                                        <span class="variable">developer</span> = {
-                                    </span>
-                                </div>
-                                <div class="code-line">
-                                    <span class="line-number">2</span>
-                                    <span class="code-text">
-                                        &nbsp;&nbsp;<span class="property">name</span>:
-                                        <span class="string">'Farhad Hossain'</span>,
-                                    </span>
-                                </div>
-                                <div class="code-line">
-                                    <span class="line-number">3</span>
-                                    <span class="code-text">
-                                        &nbsp;&nbsp;<span class="property">skills</span>:
-                                        <span class="array">['React', 'JS', 'CSS']</span>,
-                                    </span>
-                                </div>
-                                <div class="code-line">
-                                    <span class="line-number">4</span>
-                                    <span class="code-text">
-                                        &nbsp;&nbsp;<span class="property">passion</span>:
-                                        <span class="string">'Creating Amazing UX'</span>
-                                    </span>
-                                </div>
-                                <div class="code-line">
-                                    <span class="line-number">5</span>
-                                    <span class="code-text">};</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="code-glow"></div>
+                         <a href="#" class="social-link" title="Facebook">
+                            <i class="fab fa-facebook"></i>
+                        </a>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="hero-bottom" data-aos="fade-up" data-aos-delay="1200">
-            <div class="scroll-indicator">
-                <span>Discover More</span>
-                <div class="scroll-arrow">
-                    <i class="fas fa-chevron-down"></i>
+            <div class="hero-visual" data-aos="fade-up" data-aos-delay="1000">
+                <div class="visual-container">
+                    <div class="code-window">
+                        <div class="window-header">
+                            <div class="window-controls">
+                                <span class="control red"></span>
+                                <span class="control yellow"></span>
+                                <span class="control green"></span>
+                            </div>
+                            <span class="window-title">portfolio.js</span>
+                        </div>
+                        <div class="window-content">
+                            <div class="code-line">
+                                <span class="line-number">1</span>
+                                <span class="code-text">
+                                    <span class="keyword">const</span>
+                                    <span class="variable">developer</span> = {
+                                </span>
+                            </div>
+                            <div class="code-line">
+                                <span class="line-number">2</span>
+                                <span class="code-text">
+                                    &nbsp;&nbsp;<span class="property">name</span>:
+                                    <span class="string">'Farhad Hossain'</span>,
+                                </span>
+                            </div>
+                            <div class="code-line">
+                                <span class="line-number">3</span>
+                                <span class="code-text">
+                                    &nbsp;&nbsp;<span class="property">skills</span>:
+                                    <span class="array">['React', 'JS', 'CSS']</span>,
+                                </span>
+                            </div>
+                            <div class="code-line">
+                                <span class="line-number">4</span>
+                                <span class="code-text">
+                                    &nbsp;&nbsp;<span class="property">passion</span>:
+                                    <span class="string">'Creating Amazing UX'</span>
+                                </span>
+                            </div>
+                            <div class="code-line">
+                                <span class="line-number">5</span>
+                                <span class="code-text">};</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="code-glow"></div>
+                </div>
+            </div>
+
+            <div class="hero-bottom" data-aos="fade-up" data-aos-delay="1200">
+                <div class="scroll-indicator">
+                    <span>Discover More</span>
+                    <div class="scroll-arrow">
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
                 </div>
             </div>
         </div>
@@ -213,6 +227,16 @@
 
     <!-- About Section -->
     <section id="about" class="about">
+        <div class="about-bg">
+            <div class="about-grid"></div>
+            <div class="about-particles"></div>
+            <div class="about-floating-elements">
+                <div class="about-floating-shape about-shape-1"></div>
+                <div class="about-floating-shape about-shape-2"></div>
+                <div class="about-floating-shape about-shape-3"></div>
+            </div>
+        </div>
+
         <div class="container">
             <div class="section-header" data-aos="fade-up">
                 <span class="section-number">02</span>
@@ -312,21 +336,6 @@
                             </div>
                         </div>
                     </div>
-
-                    <div class="about-stats">
-                        <div class="stat-item">
-                            <span class="stat-number">50+</span>
-                            <span class="stat-label">Projects Completed</span>
-                        </div>
-                        <div class="stat-item">
-                            <span class="stat-number">3+</span>
-                            <span class="stat-label">Years Experience</span>
-                        </div>
-                        <div class="stat-item">
-                            <span class="stat-number">100%</span>
-                            <span class="stat-label">Client Satisfaction</span>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
@@ -334,6 +343,16 @@
 
     <!-- Work Section -->
     <section id="work" class="work">
+        <div class="work-bg">
+            <div class="work-grid"></div>
+            <div class="work-particles"></div>
+            <div class="work-floating-elements">
+                <div class="work-floating-shape work-shape-1"></div>
+                <div class="work-floating-shape work-shape-2"></div>
+                <div class="work-floating-shape work-shape-3"></div>
+            </div>
+        </div>
+
         <div class="container">
             <div class="section-header" data-aos="fade-up">
                 <span class="section-number">03</span>
@@ -346,6 +365,7 @@
                 <button class="filter-btn" data-filter="web">Web Apps</button>
                 <button class="filter-btn" data-filter="ecommerce">E-commerce</button>
                 <button class="filter-btn" data-filter="ui">UI/UX</button>
+                <button class="filter-btn" data-filter="portfolio">Portfolio</button>
             </div>
 
             <div class="projects-grid">
@@ -357,10 +377,10 @@
                                     <h3>NovaWear</h3>
                                     <p>Modern E-commerce Platform</p>
                                     <div class="project-links">
-                                        <a href="#" class="link-btn">
+                                        <a href="#" class="link-btn" title="Live Demo">
                                             <i class="fas fa-external-link-alt"></i>
                                         </a>
-                                        <a href="#" class="link-btn">
+                                        <a href="#" class="link-btn" title="GitHub">
                                             <i class="fab fa-github"></i>
                                         </a>
                                     </div>
@@ -376,7 +396,7 @@
                                 <span class="project-year">2024</span>
                             </div>
                             <h3 class="project-name">NovaWear</h3>
-                            <p class="project-desc">Fashion retail platform with advanced filtering and seamless checkout experience.</p>
+                            <p class="project-desc">Fashion retail platform with advanced filtering, shopping cart, and seamless checkout experience.</p>
                             <div class="project-tech">
                                 <span>HTML</span>
                                 <span>CSS</span>
@@ -395,10 +415,10 @@
                                     <h3>TrackFlow</h3>
                                     <p>Project Management Tool</p>
                                     <div class="project-links">
-                                        <a href="#" class="link-btn">
+                                        <a href="#" class="link-btn" title="Live Demo">
                                             <i class="fas fa-external-link-alt"></i>
                                         </a>
-                                        <a href="#" class="link-btn">
+                                        <a href="#" class="link-btn" title="GitHub">
                                             <i class="fab fa-github"></i>
                                         </a>
                                     </div>
@@ -414,7 +434,7 @@
                                 <span class="project-year">2024</span>
                             </div>
                             <h3 class="project-name">TrackFlow</h3>
-                            <p class="project-desc">Comprehensive project management and workflow tracking application.</p>
+                            <p class="project-desc">Comprehensive project management and workflow tracking application with real-time updates.</p>
                             <div class="project-tech">
                                 <span>React</span>
                                 <span>Node.js</span>
@@ -433,10 +453,10 @@
                                     <h3>TasteBite</h3>
                                     <p>Food Delivery Interface</p>
                                     <div class="project-links">
-                                        <a href="#" class="link-btn">
+                                        <a href="#" class="link-btn" title="Live Demo">
                                             <i class="fas fa-external-link-alt"></i>
                                         </a>
-                                        <a href="#" class="link-btn">
+                                        <a href="#" class="link-btn" title="GitHub">
                                             <i class="fab fa-github"></i>
                                         </a>
                                     </div>
@@ -452,7 +472,7 @@
                                 <span class="project-year">2023</span>
                             </div>
                             <h3 class="project-name">TasteBite</h3>
-                            <p class="project-desc">Intuitive food delivery app interface with smooth user experience.</p>
+                            <p class="project-desc">Intuitive food delivery app interface with smooth user experience and modern design.</p>
                             <div class="project-tech">
                                 <span>HTML</span>
                                 <span>SCSS</span>
@@ -462,157 +482,241 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="project-item" data-category="portfolio" data-aos="fade-up" data-aos-delay="600">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="project-overlay">
+                                <div class="overlay-content">
+                                    <h3>Creative Portfolio</h3>
+                                    <p>Personal Portfolio Website</p>
+                                    <div class="project-links">
+                                        <a href="#" class="link-btn" title="Live Demo">
+                                            <i class="fas fa-external-link-alt"></i>
+                                        </a>
+                                        <a href="#" class="link-btn" title="GitHub">
+                                            <i class="fab fa-github"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="image-placeholder">
+                                <i class="fas fa-user-circle"></i>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-meta">
+                                <span class="project-category">Portfolio</span>
+                                <span class="project-year">2024</span>
+                            </div>
+                            <h3 class="project-name">Creative Portfolio</h3>
+                            <p class="project-desc">Modern, responsive portfolio website with dark theme and smooth animations.</p>
+                            <div class="project-tech">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                                <span>AOS</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-item" data-category="web" data-aos="fade-up" data-aos-delay="700">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="project-overlay">
+                                <div class="overlay-content">
+                                    <h3>WeatherNow</h3>
+                                    <p>Weather Dashboard App</p>
+                                    <div class="project-links">
+                                        <a href="#" class="link-btn" title="Live Demo">
+                                            <i class="fas fa-external-link-alt"></i>
+                                        </a>
+                                        <a href="#" class="link-btn" title="GitHub">
+                                            <i class="fab fa-github"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="image-placeholder">
+                                <i class="fas fa-cloud-sun"></i>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-meta">
+                                <span class="project-category">Web App</span>
+                                <span class="project-year">2023</span>
+                            </div>
+                            <h3 class="project-name">WeatherNow</h3>
+                            <p class="project-desc">Real-time weather dashboard with location-based forecasts and interactive maps.</p>
+                            <div class="project-tech">
+                                <span>React</span>
+                                <span>API</span>
+                                <span>CSS3</span>
+                                <span>Charts.js</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-item" data-category="ecommerce" data-aos="fade-up" data-aos-delay="800">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="project-overlay">
+                                <div class="overlay-content">
+                                    <h3>TechStore</h3>
+                                    <p>Electronics E-commerce</p>
+                                    <div class="project-links">
+                                        <a href="#" class="link-btn" title="Live Demo">
+                                            <i class="fas fa-external-link-alt"></i>
+                                        </a>
+                                        <a href="#" class="link-btn" title="GitHub">
+                                            <i class="fab fa-github"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="image-placeholder">
+                                <i class="fas fa-laptop"></i>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-meta">
+                                <span class="project-category">E-commerce</span>
+                                <span class="project-year">2023</span>
+                            </div>
+                            <h3 class="project-name">TechStore</h3>
+                            <p class="project-desc">Electronics e-commerce platform with product comparison and review system.</p>
+                            <div class="project-tech">
+                                <span>Vue.js</span>
+                                <span>Laravel</span>
+                                <span>MySQL</span>
+                                <span>Stripe</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="work-cta" data-aos="fade-up" data-aos-delay="900">
+                <h3>Interested in working together?</h3>
+                <p>I'm always excited to take on new challenges and bring creative ideas to life.</p>
+                <a href="#contact" class="btn btn-primary">
+                    <span>Let's Talk</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
             </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <div class="section-header" data-aos="fade-up">
-                <span class="section-number">04</span>
-                <h2 class="section-title">Let's Work Together</h2>
-                <p class="section-subtitle">Ready to bring your ideas to life? Let's create something amazing together.</p>
+    <!-- Footer Section -->
+    <footer id="contact" class="footer">
+        <div class="footer-bg">
+            <div class="footer-grid"></div>
+            <div class="footer-particles"></div>
+            <div class="footer-floating-elements">
+                <div class="footer-floating-shape footer-shape-1"></div>
+                <div class="footer-floating-shape footer-shape-2"></div>
             </div>
+        </div>
 
-            <div class="contact-content">
-                <div class="contact-info" data-aos="fade-right">
-                    <div class="contact-text">
-                        <h3>Get in touch</h3>
-                        <p>
-                            I'm always excited to work on new projects and collaborate with amazing people.
-                            Whether you have a project in mind or just want to chat about web development,
-                            feel free to reach out!
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-main" data-aos="fade-up">
+                    <div class="footer-intro">
+                        <div class="intro-badge">
+                            <i class="fas fa-rocket"></i>
+                            <span>Let's Work Together</span>
+                        </div>
+                        <h2 class="footer-title">Ready to Start Your Next Project?</h2>
+                        <p class="footer-subtitle">
+                            Transform your ideas into stunning digital experiences. Let's collaborate and create something extraordinary.
                         </p>
+                        <div class="intro-features">
+                            <div class="feature-item">
+                                <i class="fas fa-lightning-bolt"></i>
+                                <span>Fast Delivery</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-palette"></i>
+                                <span>Creative Design</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-code"></i>
+                                <span>Clean Code</span>
+                            </div>
+                        </div>
                     </div>
 
-                    <div class="contact-details">
-                        <div class="contact-item">
+                    <div class="contact-methods">
+                        <div class="contact-item" data-aos="fade-up" data-aos-delay="200">
                             <div class="contact-icon">
                                 <i class="fas fa-envelope"></i>
                             </div>
-                            <div class="contact-text">
-                                <span class="contact-label">Email</span>
-                                <a href="mailto:hossainfarhad491@gmail.com" class="contact-value">
-                                    hossainfarhad491@gmail.com
-                                </a>
+                            <div class="contact-info">
+                                <h3>Email Me</h3>
+                                <p>hossainfarhad491@gmail.com</p>
+                                <a href="mailto:hossainfarhad491@gmail.com" class="contact-link">Send Message</a>
                             </div>
                         </div>
 
-                        <div class="contact-item">
+                        <div class="contact-item" data-aos="fade-up" data-aos-delay="300">
                             <div class="contact-icon">
-                                <i class="fab fa-linkedin"></i>
+                                <i class="fas fa-phone"></i>
                             </div>
-                            <div class="contact-text">
-                                <span class="contact-label">LinkedIn</span>
-                                <a href="#" class="contact-value">linkedin.com/in/farhad-hossain</a>
-                            </div>
-                        </div>
-
-                        <div class="contact-item">
-                            <div class="contact-icon">
-                                <i class="fab fa-github"></i>
-                            </div>
-                            <div class="contact-text">
-                                <span class="contact-label">GitHub</span>
-                                <a href="#" class="contact-value">github.com/farhad-iptv</a>
+                            <div class="contact-info">
+                                <h3>Call Me</h3>
+                                <p>+8801993-813413</p>
+                                <a href="tel:+8801993-813413" class="contact-link">Call Now</a>
                             </div>
                         </div>
 
-                        <div class="contact-item">
+                        <div class="contact-item" data-aos="fade-up" data-aos-delay="400">
                             <div class="contact-icon">
                                 <i class="fas fa-map-marker-alt"></i>
                             </div>
-                            <div class="contact-text">
-                                <span class="contact-label">Location</span>
-                                <span class="contact-value">Bangladesh</span>
+                            <div class="contact-info">
+                                <h3>Location</h3>
+                                <p>Jashore, Khulna, Bangladesh</p>
+                                <a href="#" class="contact-link">View Map</a>
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="contact-form-container" data-aos="fade-left">
-                    <form class="contact-form" id="contact-form">
-                        <div class="form-group">
-                            <label for="name">Name</label>
-                            <input type="text" id="name" name="name" required>
+                    <div class="footer-cta" data-aos="fade-up" data-aos-delay="500">
+                        <h3>Ready to Start Your Project?</h3>
+                        <div class="cta-buttons">
+                            <a href="mailto:hossainfarhad491@gmail.com" class="btn btn-primary">
+                                <span>Get In Touch</span>
+                                <i class="fas fa-paper-plane"></i>
+                            </a>
+                            <a href="#" class="btn btn-outline">
+                                <span>Download CV</span>
+                                <i class="fas fa-download"></i>
+                            </a>
                         </div>
-
-                        <div class="form-group">
-                            <label for="email">Email</label>
-                            <input type="email" id="email" name="email" required>
-                        </div>
-
-                        <div class="form-group">
-                            <label for="subject">Subject</label>
-                            <input type="text" id="subject" name="subject" required>
-                        </div>
-
-                        <div class="form-group">
-                            <label for="message">Message</label>
-                            <textarea id="message" name="message" rows="5" required></textarea>
-                        </div>
-
-                        <button type="submit" class="btn btn-primary">
-                            <span>Send Message</span>
-                            <i class="fas fa-paper-plane"></i>
-                        </button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-brand">
-                    <h3>Farhad Hossain</h3>
-                    <p>Creative Frontend Developer</p>
-                </div>
-
-                <div class="footer-links">
-                    <div class="footer-section">
-                        <h4>Navigation</h4>
-                        <ul>
-                            <li><a href="#home">Home</a></li>
-                            <li><a href="#about">About</a></li>
-                            <li><a href="#work">Work</a></li>
-                            <li><a href="#contact">Contact</a></li>
-                        </ul>
                     </div>
-
-                    <div class="footer-section">
-                        <h4>Connect</h4>
-                        <ul>
-                            <li><a href="mailto:hossainfarhad491@gmail.com">Email</a></li>
-                            <li><a href="#">LinkedIn</a></li>
-                            <li><a href="#">GitHub</a></li>
-                            <li><a href="#">Twitter</a></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="footer-social">
-                    <a href="https://github.com/farhad-iptv" target="_blank" class="social-link">
-                        <i class="fab fa-github"></i>
-                    </a>
-                    <a href="https://linkedin.com/in/farhad-hossain" target="_blank" class="social-link">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                    <a href="mailto:hossainfarhad491@gmail.com" class="social-link">
-                        <i class="fas fa-envelope"></i>
-                    </a>
-                    <a href="#" target="_blank" class="social-link">
-                        <i class="fab fa-twitter"></i>
-                    </a>
                 </div>
             </div>
 
-            <div class="footer-bottom">
-                <p>&copy; 2025 Farhad Hossain. All rights reserved.</p>
-                <p>Designed & Developed with ❤️</p>
+            <div class="footer-bottom" data-aos="fade-up" data-aos-delay="700">
+                <div class="footer-divider"></div>
+                <div class="footer-bottom-content">
+                    <div class="footer-brand">
+                        <span class="brand-name">Farhad Hossain</span>
+                        <span class="brand-tagline">Frontend Developer & UI Designer</span>
+                    </div>
+                    <div class="footer-copyright">
+                        <p>&copy; 2024 Farhad Hossain. All rights reserved.</p>
+                        <p>Made with <i class="fas fa-heart"></i> using HTML, CSS & JavaScript</p>
+                    </div>
+                    <div class="footer-status">
+                        <div class="status-indicator">
+                            <div class="status-dot"></div>
+                            <span>Available for work</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </footer>
